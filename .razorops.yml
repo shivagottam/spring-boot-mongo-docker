@@ -1,1 +1,8 @@
 
+tasks:
+  unit-test:
+    runner: razorci/python
+    steps:
+    - checkout
+    - commands:
+      - pip install pytest
